@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulário</title>
+        <!--Link com todos imports-->
+        <link rel="stylesheet" href="./css/main.css">
+    </head>
+    <body>
+        <!--Início div elementos-->
+        <div class="container">
+            <form action="#" method="post">
+                <!--Inicio div titulo-->
+                <div>
+                    <h2>Formulário</h2>
+                </div>
+                <!--Inicio div titulo-->
+
+                <!--Inicio div nome-->
+                <div class="itens">
+                  <label for="nome">Nome Completo:</label>
+                  <input type="text" name="nome" id="nome" size="70" placeholder="Ex: Nathalia Silva Assis" required/>
+                </div>
+                <!--Fim div nome-->
+
+                <!--Inicio div idade-->
+                <div class="itens">
+                    <label for="idade">Idade:</label>
+                    <input type="number" name="idade" id="idade" size="70" placeholder="Ex: 20" required/>
+                </div>
+                <!--Fim div idade-->
+        
+                <!--Inicio div telefone-->
+                <div class="itens">
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" name="telefone" id="telefone" size="70" placeholder="Ex: (11) 98898-9876" required/>
+                </div>
+                <!--Fim div telefone-->
+        
+                <!--Inicio div e-mail-->
+                <div class="itens">
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" id="email" size="70" placeholder="Ex: email@email.com" required/>
+                </div>
+                <!--Fim div e-mail-->
+                
+                <!--Inicio div botão de envio-->
+                <div class="botao">
+                    <button type="submit" class="enviar" value="enviar" >Enviar</button>
+                </div>
+                <!--Fim div botão de envio-->
+            </form>
+        </div>
+        <!--Fim div elementos-->     
+    </body>
+</html>
